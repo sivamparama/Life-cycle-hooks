@@ -8,7 +8,7 @@ import { Component, OnInit,OnDestroy,OnChanges } from '@angular/core';
 export class FieldComponent implements OnInit,OnDestroy,OnChanges {
 
   name="Angular";
-  value:any;
+  value:string ='';
   ngOnInit() {
     console.log("child ngOnInit")
   }
